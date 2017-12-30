@@ -1,12 +1,18 @@
 /* MAIN AREA */
 /* SECTION HERO*/
-.hero-img {
-  width: 100%;
-  height: auto;
-  display: block;
-  top: 6rem;
-  position: relative;
+#image-container {
+  height: 65vh;
+  background-image: url('/images/mujeres2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  @media all and (min-width: 768px) {
+    height: 75vh;
+  }
+  @media all and (min-width:  1024px) {
+    height: 90vh;
+  }
 }
+
 .hero-container {
   background-color: $colorPrimary;
   height: 6.2rem;
@@ -94,7 +100,7 @@ RESPONSIVE HERO
     justify-content: center;
     background-color: rgba(255,205,73,0.5);
     height: 20rem;
-    top: 30%;
+    top: 20%;
     margin-left: 8.22%;
     margin-right: 8.22%;
     position: absolute;
@@ -105,6 +111,7 @@ RESPONSIVE HERO
     color: white;
   }
   .stat {
-    margin-top: 6.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 }

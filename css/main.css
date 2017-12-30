@@ -47,12 +47,11 @@ body,div,span,applet,object,iframe {
   padding: 20px 40px;
   display: block;
   margin: 50px auto;
-}/* MAIN AREA *//* SECTION HERO*/.hero-img {
-  width: 100%;
-  height: auto;
-  display: block;
-  top: 6rem;
-  position: relative;
+}/* MAIN AREA *//* SECTION HERO*/#image-container {
+  height: 65vh;
+  background-image: url("/images/mujeres2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .hero-container {
@@ -416,8 +415,9 @@ HEADER
   background-color: #ffcd49;
   top: 0;
   z-index: 1;
-  height: 20%;
+  height: 12%;
   padding: 1%;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 }/* HEADER LEFT */.logo-img {
   width: 30%;
 }/* HEADER RIGHT */.nav-section {
@@ -489,6 +489,10 @@ HEADER
 }/* ==============
 RESPONSIVE HEADER
 ==================*/@media all and (min-width: 768px) {
+  #image-container {
+    height: 75vh;
+  }
+
   .hero-text {
     margin-left: 1.65rem;
     margin-right: 1.65rem;
@@ -753,6 +757,10 @@ RESPONSIVE HEADER
 }
 
 @media all and (min-width: 1024px) {
+  #image-container {
+    height: 90vh;
+  }
+
   .hero-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -766,7 +774,7 @@ RESPONSIVE HEADER
     justify-content: center;
     background-color: rgba(255, 205, 73, 0.5);
     height: 20rem;
-    top: 30%;
+    top: 20%;
     margin-left: 8.22%;
     margin-right: 8.22%;
     position: absolute;
@@ -779,7 +787,8 @@ RESPONSIVE HEADER
   }
 
   .stat {
-    margin-top: 6.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   .intro-info-text {
