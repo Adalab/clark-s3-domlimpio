@@ -10,8 +10,9 @@ header {
   background-color: $colorPrimary;
   top: 0;
   z-index: 1;
-  height: 20%;
+  height: 12%;
   padding: 1%;
+  border-bottom: 2px solid rgba(0,0,0,0.1);
 }
 /* HEADER LEFT */
 .logo-img {
