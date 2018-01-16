@@ -15,6 +15,7 @@ header {
     padding: 0.7rem;
   }
 }
+
 /* HEADER LEFT */
 .logo-img {
   width: 3rem;
@@ -24,6 +25,7 @@ header {
     height: 4rem;
   }
 }
+
 /* HEADER RIGHT */
 .nav-section {
   margin-left: 0;
@@ -35,6 +37,7 @@ header {
     width: 100%;
   }
 }
+
 .menu-nav {
   appearance: none;
   border: none;
@@ -46,10 +49,12 @@ header {
     display: none;
   }
 }
+
 .image-menu {
   width: 1.5rem;
   display: block;
 }
+
 .nav-list {
   font-size: 2rem;
   position: fixed;
@@ -77,6 +82,7 @@ header {
     display: none;
   }
 }
+
 .item-nav-list {
   color: $colorTertiary;
   font-size: 0.7rem;
@@ -88,9 +94,11 @@ header {
     display: none;
   }
 }
+
 .item-nav-list:hover {
   color: $colorTertiary;
 }
+
 .nav-list-desktop {
   display: none;
   @media all and (min-width: 768px) {
@@ -102,6 +110,7 @@ header {
     padding: 0;
   }
 }
+
 .item-list-desktop {
   @media all and (min-width: 768px) {
     display: flex;
@@ -109,6 +118,7 @@ header {
 
   }
 }
+
 .item-nav-list-desktop {
   @media all and (min-width: 768px) {
 
@@ -121,6 +131,7 @@ header {
     font-weight: $normalFontWeight;
   }
 }
+
 .item-nav-list-desktop:hover {
   @media all and (min-width: 768px) {
     color: $colorTertiary;

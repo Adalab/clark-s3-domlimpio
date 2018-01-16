@@ -7,16 +7,16 @@
   }
 
 
-    .title-slider {
-      text-align: center;
-      background-color: $colorQuintary;
-      padding: 23px;
-      @media all and (min-width:768px) {
-        background-color: $colorSecondary;
-        margin-top: 8%;
-        padding: 50px;
-      }
+  .title-slider {
+    text-align: center;
+    background-color: $colorQuintary;
+    padding: 23px;
+    @media all and (min-width:768px) {
+      background-color: $colorSecondary;
+      margin-top: 8%;
+      padding: 50px;
     }
+  }
   // .title-slider {
   //   text-align: center;
   //   background-color: white;
@@ -28,7 +28,7 @@
   //   }
   // }
 
-//
+  //
 
   .testimony-title {
     font-size: $fifthTitleSize;
@@ -82,7 +82,6 @@
       font-size: 18px;
       height: 350px;
     }
-
   }
 
   .image-testimony {
