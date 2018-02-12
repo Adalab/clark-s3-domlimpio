@@ -1,2 +1,2 @@
 # clarke-s3-domlimpio
-Proyecto centrado en la facilitación de información para mujeres inmigrates en situación de precariedad
+Proyecto social en colaboración con la Fundación San Juan del Castillo, centrado en la sensibilización y apoyo de la comunidad de mujeres inmigrantes.Utilizamos SASS, animaciones y JS
